@@ -8,20 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		04B12EEC2136991C00C042DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12EEB2136991C00C042DD /* AppDelegate.swift */; };
-		04B12EEE2136991D00C042DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12EED2136991D00C042DD /* ViewController.swift */; };
 		04B12EF12136991D00C042DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B12EEF2136991D00C042DD /* Main.storyboard */; };
 		04B12EF32136992A00C042DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B12EF22136992A00C042DD /* Assets.xcassets */; };
 		04B12EF62136992A00C042DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B12EF42136992A00C042DD /* LaunchScreen.storyboard */; };
+		04B12F7D2136A1E900C042DD /* centerinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F6E2136A1E700C042DD /* centerinfo.swift */; };
+		04B12F7E2136A1E900C042DD /* CentersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F6F2136A1E700C042DD /* CentersVC.swift */; };
+		04B12F7F2136A1E900C042DD /* StoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F712136A1E700C042DD /* StoreVC.swift */; };
+		04B12F802136A1E900C042DD /* TechnicalRegester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F732136A1E800C042DD /* TechnicalRegester.swift */; };
+		04B12F822136A1E900C042DD /* NewOrderweb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F772136A1E900C042DD /* NewOrderweb.swift */; };
+		04B12F832136A1E900C042DD /* NewRequestOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F782136A1E900C042DD /* NewRequestOrder.swift */; };
+		04B12F842136A1E900C042DD /* orderCenterOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F792136A1E900C042DD /* orderCenterOrder.swift */; };
+		04B12F852136A1E900C042DD /* OrderDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F7A2136A1E900C042DD /* OrderDetails.swift */; };
+		04B12F862136A1E900C042DD /* ReguestOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F7B2136A1E900C042DD /* ReguestOrder.swift */; };
+		04B12F872136A1E900C042DD /* smartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F7C2136A1E900C042DD /* smartCollectionViewCell.swift */; };
+		04B12F942136A26E00C042DD /* CenterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F8C2136A26D00C042DD /* CenterModel.swift */; };
+		04B12F952136A26E00C042DD /* LatLngModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F8D2136A26D00C042DD /* LatLngModel.swift */; };
+		04B12F962136A26E00C042DD /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F8F2136A26D00C042DD /* StoreModel.swift */; };
+		04B12F972136A26E00C042DD /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F912136A26E00C042DD /* OrderModel.swift */; };
+		04B12F982136A26E00C042DD /* OrderPartsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F922136A26E00C042DD /* OrderPartsModel.swift */; };
+		04B12F992136A26E00C042DD /* OrderTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F932136A26E00C042DD /* OrderTypeModel.swift */; };
+		04B12FA22136A2B000C042DD /* Centercell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F9C2136A2B000C042DD /* Centercell.swift */; };
+		04B12FA32136A2B000C042DD /* orderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F9E2136A2B000C042DD /* orderCell.swift */; };
+		04B12FA42136A2B000C042DD /* orderCelll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12F9F2136A2B000C042DD /* orderCelll.swift */; };
+		04B12FA52136A2B000C042DD /* StoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B12FA12136A2B000C042DD /* StoreCell.swift */; };
+		04B12FA72136A44E00C042DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04B12FA62136A44E00C042DD /* GoogleService-Info.plist */; };
+		BF4B73F5E3C120F71C4E4DC0 /* Pods_smartfixsa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04785987B9F64E946111EB63 /* Pods_smartfixsa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04785987B9F64E946111EB63 /* Pods_smartfixsa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartfixsa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B12EE82136991C00C042DD /* smartfixsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartfixsa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B12EEB2136991C00C042DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04B12EED2136991D00C042DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04B12EF02136991D00C042DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04B12EF22136992A00C042DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B12EF52136992A00C042DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B12EF72136992A00C042DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B12F6E2136A1E700C042DD /* centerinfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = centerinfo.swift; sourceTree = "<group>"; };
+		04B12F6F2136A1E700C042DD /* CentersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CentersVC.swift; sourceTree = "<group>"; };
+		04B12F712136A1E700C042DD /* StoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreVC.swift; sourceTree = "<group>"; };
+		04B12F732136A1E800C042DD /* TechnicalRegester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechnicalRegester.swift; sourceTree = "<group>"; };
+		04B12F772136A1E900C042DD /* NewOrderweb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewOrderweb.swift; sourceTree = "<group>"; };
+		04B12F782136A1E900C042DD /* NewRequestOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRequestOrder.swift; sourceTree = "<group>"; };
+		04B12F792136A1E900C042DD /* orderCenterOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = orderCenterOrder.swift; sourceTree = "<group>"; };
+		04B12F7A2136A1E900C042DD /* OrderDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetails.swift; sourceTree = "<group>"; };
+		04B12F7B2136A1E900C042DD /* ReguestOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReguestOrder.swift; sourceTree = "<group>"; };
+		04B12F7C2136A1E900C042DD /* smartCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = smartCollectionViewCell.swift; sourceTree = "<group>"; };
+		04B12F8C2136A26D00C042DD /* CenterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterModel.swift; sourceTree = "<group>"; };
+		04B12F8D2136A26D00C042DD /* LatLngModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatLngModel.swift; sourceTree = "<group>"; };
+		04B12F8F2136A26D00C042DD /* StoreModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
+		04B12F912136A26E00C042DD /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		04B12F922136A26E00C042DD /* OrderPartsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderPartsModel.swift; sourceTree = "<group>"; };
+		04B12F932136A26E00C042DD /* OrderTypeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTypeModel.swift; sourceTree = "<group>"; };
+		04B12F9C2136A2B000C042DD /* Centercell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Centercell.swift; sourceTree = "<group>"; };
+		04B12F9E2136A2B000C042DD /* orderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = orderCell.swift; sourceTree = "<group>"; };
+		04B12F9F2136A2B000C042DD /* orderCelll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = orderCelll.swift; sourceTree = "<group>"; };
+		04B12FA12136A2B000C042DD /* StoreCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreCell.swift; sourceTree = "<group>"; };
+		04B12FA62136A44E00C042DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8F65A2E81B80A953882BAAF2 /* Pods-smartfixsa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartfixsa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smartfixsa/Pods-smartfixsa.debug.xcconfig"; sourceTree = "<group>"; };
+		BE499BD2B73BA5ED194612C0 /* Pods-smartfixsa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartfixsa.release.xcconfig"; path = "Pods/Target Support Files/Pods-smartfixsa/Pods-smartfixsa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4B73F5E3C120F71C4E4DC0 /* Pods_smartfixsa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +85,8 @@
 			children = (
 				04B12EEA2136991C00C042DD /* smartfixsa */,
 				04B12EE92136991C00C042DD /* Products */,
+				D70ED3C25B5F22411441561B /* Pods */,
+				BB727044C3FBFA1078C0C0B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +101,156 @@
 		04B12EEA2136991C00C042DD /* smartfixsa */ = {
 			isa = PBXGroup;
 			children = (
+				04B12FA62136A44E00C042DD /* GoogleService-Info.plist */,
+				04B12F9A2136A2B000C042DD /* Cells */,
+				04B12F8A2136A26100C042DD /* M */,
+				04B12F892136A20C00C042DD /* C */,
 				04B12EEB2136991C00C042DD /* AppDelegate.swift */,
-				04B12EED2136991D00C042DD /* ViewController.swift */,
 				04B12EEF2136991D00C042DD /* Main.storyboard */,
 				04B12EF22136992A00C042DD /* Assets.xcassets */,
 				04B12EF42136992A00C042DD /* LaunchScreen.storyboard */,
 				04B12EF72136992A00C042DD /* Info.plist */,
 			);
 			path = smartfixsa;
+			sourceTree = "<group>";
+		};
+		04B12F6D2136A1E700C042DD /* Centers */ = {
+			isa = PBXGroup;
+			children = (
+				04B12F6E2136A1E700C042DD /* centerinfo.swift */,
+				04B12F6F2136A1E700C042DD /* CentersVC.swift */,
+			);
+			path = Centers;
+			sourceTree = "<group>";
+		};
+		04B12F702136A1E700C042DD /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				04B12F712136A1E700C042DD /* StoreVC.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		04B12F722136A1E800C042DD /* Technical */ = {
+			isa = PBXGroup;
+			children = (
+				04B12F732136A1E800C042DD /* TechnicalRegester.swift */,
+			);
+			path = Technical;
+			sourceTree = "<group>";
+		};
+		04B12F762136A1E900C042DD /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				04B12F772136A1E900C042DD /* NewOrderweb.swift */,
+				04B12F782136A1E900C042DD /* NewRequestOrder.swift */,
+				04B12F792136A1E900C042DD /* orderCenterOrder.swift */,
+				04B12F7A2136A1E900C042DD /* OrderDetails.swift */,
+				04B12F7B2136A1E900C042DD /* ReguestOrder.swift */,
+				04B12F7C2136A1E900C042DD /* smartCollectionViewCell.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		04B12F892136A20C00C042DD /* C */ = {
+			isa = PBXGroup;
+			children = (
+				04B12F6D2136A1E700C042DD /* Centers */,
+				04B12F762136A1E900C042DD /* Orders */,
+				04B12F702136A1E700C042DD /* Stores */,
+				04B12F722136A1E800C042DD /* Technical */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		04B12F8A2136A26100C042DD /* M */ = {
+			isa = PBXGroup;
+			children = (
+				04B12F8B2136A26D00C042DD /* CentersModels */,
+				04B12F902136A26E00C042DD /* OrdersModels */,
+				04B12F8E2136A26D00C042DD /* StoresModels */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		04B12F8B2136A26D00C042DD /* CentersModels */ = {
+			isa = PBXGroup;
+			children = (
+				04B12F8C2136A26D00C042DD /* CenterModel.swift */,
+				04B12F8D2136A26D00C042DD /* LatLngModel.swift */,
+			);
+			path = CentersModels;
+			sourceTree = "<group>";
+		};
+		04B12F8E2136A26D00C042DD /* StoresModels */ = {
+			isa = PBXGroup;
+			children = (
+				04B12F8F2136A26D00C042DD /* StoreModel.swift */,
+			);
+			path = StoresModels;
+			sourceTree = "<group>";
+		};
+		04B12F902136A26E00C042DD /* OrdersModels */ = {
+			isa = PBXGroup;
+			children = (
+				04B12F912136A26E00C042DD /* OrderModel.swift */,
+				04B12F922136A26E00C042DD /* OrderPartsModel.swift */,
+				04B12F932136A26E00C042DD /* OrderTypeModel.swift */,
+			);
+			path = OrdersModels;
+			sourceTree = "<group>";
+		};
+		04B12F9A2136A2B000C042DD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				04B12F9B2136A2B000C042DD /* CentersCell */,
+				04B12F9D2136A2B000C042DD /* OrderCells */,
+				04B12FA02136A2B000C042DD /* StoreCells */,
+			);
+			name = Cells;
+			path = "../../../Downloads/SmartFixDM-master/SmartFix/View/Cells";
+			sourceTree = "<group>";
+		};
+		04B12F9B2136A2B000C042DD /* CentersCell */ = {
+			isa = PBXGroup;
+			children = (
+				04B12F9C2136A2B000C042DD /* Centercell.swift */,
+			);
+			path = CentersCell;
+			sourceTree = "<group>";
+		};
+		04B12F9D2136A2B000C042DD /* OrderCells */ = {
+			isa = PBXGroup;
+			children = (
+				04B12F9E2136A2B000C042DD /* orderCell.swift */,
+				04B12F9F2136A2B000C042DD /* orderCelll.swift */,
+			);
+			path = OrderCells;
+			sourceTree = "<group>";
+		};
+		04B12FA02136A2B000C042DD /* StoreCells */ = {
+			isa = PBXGroup;
+			children = (
+				04B12FA12136A2B000C042DD /* StoreCell.swift */,
+			);
+			path = StoreCells;
+			sourceTree = "<group>";
+		};
+		BB727044C3FBFA1078C0C0B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04785987B9F64E946111EB63 /* Pods_smartfixsa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D70ED3C25B5F22411441561B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F65A2E81B80A953882BAAF2 /* Pods-smartfixsa.debug.xcconfig */,
+				BE499BD2B73BA5ED194612C0 /* Pods-smartfixsa.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04B12EFA2136992A00C042DD /* Build configuration list for PBXNativeTarget "smartfixsa" */;
 			buildPhases = (
+				87A0B92A1999CE705E237054 /* [CP] Check Pods Manifest.lock */,
 				04B12EE42136991C00C042DD /* Sources */,
 				04B12EE52136991C00C042DD /* Frameworks */,
 				04B12EE62136991C00C042DD /* Resources */,
+				139FE1C8E3A67716B41C4C51 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,18 +316,89 @@
 				04B12EF62136992A00C042DD /* LaunchScreen.storyboard in Resources */,
 				04B12EF32136992A00C042DD /* Assets.xcassets in Resources */,
 				04B12EF12136991D00C042DD /* Main.storyboard in Resources */,
+				04B12FA72136A44E00C042DD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		139FE1C8E3A67716B41C4C51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-smartfixsa/Pods-smartfixsa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-smartfixsa/Pods-smartfixsa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87A0B92A1999CE705E237054 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartfixsa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04B12EE42136991C00C042DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B12EEE2136991D00C042DD /* ViewController.swift in Sources */,
+				04B12F972136A26E00C042DD /* OrderModel.swift in Sources */,
+				04B12FA52136A2B000C042DD /* StoreCell.swift in Sources */,
+				04B12FA32136A2B000C042DD /* orderCell.swift in Sources */,
+				04B12F842136A1E900C042DD /* orderCenterOrder.swift in Sources */,
+				04B12FA42136A2B000C042DD /* orderCelll.swift in Sources */,
+				04B12F822136A1E900C042DD /* NewOrderweb.swift in Sources */,
+				04B12F942136A26E00C042DD /* CenterModel.swift in Sources */,
+				04B12F982136A26E00C042DD /* OrderPartsModel.swift in Sources */,
+				04B12F832136A1E900C042DD /* NewRequestOrder.swift in Sources */,
+				04B12F872136A1E900C042DD /* smartCollectionViewCell.swift in Sources */,
+				04B12F952136A26E00C042DD /* LatLngModel.swift in Sources */,
 				04B12EEC2136991C00C042DD /* AppDelegate.swift in Sources */,
+				04B12F852136A1E900C042DD /* OrderDetails.swift in Sources */,
+				04B12F962136A26E00C042DD /* StoreModel.swift in Sources */,
+				04B12F992136A26E00C042DD /* OrderTypeModel.swift in Sources */,
+				04B12F802136A1E900C042DD /* TechnicalRegester.swift in Sources */,
+				04B12F7D2136A1E900C042DD /* centerinfo.swift in Sources */,
+				04B12F862136A1E900C042DD /* ReguestOrder.swift in Sources */,
+				04B12FA22136A2B000C042DD /* Centercell.swift in Sources */,
+				04B12F7E2136A1E900C042DD /* CentersVC.swift in Sources */,
+				04B12F7F2136A1E900C042DD /* StoreVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +540,13 @@
 		};
 		04B12EFB2136992A00C042DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F65A2E81B80A953882BAAF2 /* Pods-smartfixsa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69H6G2XHVM;
 				INFOPLIST_FILE = smartfixsa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +560,13 @@
 		};
 		04B12EFC2136992A00C042DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE499BD2B73BA5ED194612C0 /* Pods-smartfixsa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69H6G2XHVM;
 				INFOPLIST_FILE = smartfixsa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

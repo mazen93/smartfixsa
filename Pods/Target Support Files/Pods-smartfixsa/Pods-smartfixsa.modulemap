@@ -1,0 +1,6 @@
+framework module Pods_smartfixsa {
+  umbrella header "Pods-smartfixsa-umbrella.h"
+
+  export *
+  module * { export * }
+}
