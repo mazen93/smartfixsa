@@ -69,13 +69,63 @@ class OrderDetails: UIViewController,CLLocationManagerDelegate {
         super.viewDidLoad()
         
         
-        setupView()
-        Tbv.isHidden = true
-        Tbv2.isHidden = true
         
-          getDataType()
-          // print("ketyyyyyy= \(orderKey.id.value!)")
-        determineMyCurrentLocation()
+        
+        
+     
+//
+//
+//        if let name = UserDefaults.standard.string(forKey: "ok") {
+//            print("name is\(name)")
+//
+//        }else{
+//            Alerts(title: "تحذير", message: "علما بان كل المنتجات المستخدمه ليست اصليه ")
+//        }
+        
+        setupView()
+                    Tbv.isHidden = true
+                    Tbv2.isHidden = true
+        
+                    getDataType()
+                    // print("ketyyyyyy= \(orderKey.id.value!)")
+                    determineMyCurrentLocation()
+        
+        
+        
+        if let name = UserDefaults.standard.string(forKey: "ok") {
+                        print("name is\(name)")
+            
+                    }else{
+                        Alerts(title: "تحذير", message: "علما بان كل المنتجات المستخدمه ليست اصليه ")
+                    }
+        
+        
+        
+    }
+    
+    
+    
+    func Alerts(title:String,message:String)  {
+        // Create the alert controller
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        
+        // Create the actions
+        let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default) {
+            UIAlertAction in
+            
+            
+            
+            UserDefaults.standard.set("ok", forKey: "ok")
+            NSLog("OK Pressed")
+        }
+       
+        
+        // Add the actions
+        alertController.addAction(okAction)
+      
+        
+        // Present the controller
+        self.present(alertController, animated: true, completion: nil)
     }
     
  
